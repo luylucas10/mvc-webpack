@@ -116,10 +116,13 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="public\dist\css\main.css" />
+    <Content Include="public\dist\js\about.js" />
     <Content Include="public\dist\js\home.js" />
     <Content Include="public\dist\js\main.js" />
+    <Content Include="public\src\js\about\index.js" />
     <Content Include="public\src\js\home\index.js" />
     <Content Include="public\src\js\index.js" />
+    <Content Include="public\src\js\store.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

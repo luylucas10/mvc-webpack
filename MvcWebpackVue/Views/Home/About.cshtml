@@ -1,7 +1,18 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div id="app-about" class="jumbotron">
+    <div class="container">
+        <h2>@ViewBag.Title.</h2>
+        <h3>@ViewBag.Message</h3>
+        <p>{{ anotherMessage }}</p>
+    </div>
+    
+</div>
+
+
+@section scripts
+{
+    <script src="@Url.Content("~/public/dist/js/about.js")"></script>
+}
