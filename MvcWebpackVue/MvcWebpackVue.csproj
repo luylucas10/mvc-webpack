@@ -115,6 +115,8 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="public\dist\css\main.css" />
+    <Content Include="public\dist\js\main.js" />
     <Content Include="public\src\js\index.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -139,6 +141,7 @@
     <Content Include="package.json" />
     <None Include="packages.config" />
     <Content Include="public\src\scss\index.scss" />
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
