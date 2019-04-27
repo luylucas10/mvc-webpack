@@ -135,6 +135,7 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="package.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
